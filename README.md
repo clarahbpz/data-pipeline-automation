@@ -66,21 +66,21 @@ data-pipeline-automation/
 ## How to Run
 
 #### Prerequisites
-Ensure you have Python installed. Clone the repository and install the dependencies:
+- Ensure you have Python installed. Clone the repository and install the dependencies:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 #### Run the Pipeline
-To manually trigger the extraction and save data to the SQL database:
+- To manually trigger the extraction and save data to the SQL database:
 
-python main.py
+    python main.py
 
 #### Launch the Dashboard
-To visualize the data in your browser:
+- To visualize the data in your browser:
 
-streamlit run app.py
+    streamlit run app.py
 
 
 
 #### Developed by Clara Hilbert Polizel 
-- Computer Engineering Student at Universidade Federal de Goiás (UFG)
+Computer Engineering Student at Universidade Federal de Goiás (UFG)
