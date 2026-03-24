@@ -1,4 +1,7 @@
 # Automated Financial Data Pipeline (ETL & BI)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://data-pipeline-automation-z4qnua8g4an8gcizhfrshq.streamlit.app/)
+
+---
 
 This project is a complete End-to-End Data Engineering Pipeline designed to ingest, process, and visualize financial indicators (Fiat Currencies and Crypto) in real-time. It simulates a professional production environment focusing on data resilience and automation.
 
