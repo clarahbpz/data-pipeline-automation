@@ -39,17 +39,17 @@ DevOps/Automation: GitHub Actions (YAML)
 
 data-pipeline-automation/
 ├── .github/workflows/
-│   └── daily_etl.yml    # Automation & CI/CD configuration
+│   └── daily_etl.yml
 ├── src/
-│   ├── extract.py       # API Ingestion logic
-│   ├── transform.py     # Data cleaning & Business logic
-│   └── load.py          # Database connection & persistence
+│   ├── extract.py 
+│   ├── transform.py 
+│   └── load.py
 ├── database/
-│   └── warehouse.db     # Relational SQLite database
-├── app.py              # Streamlit Dashboard UI
-├── main.py             # Pipeline entry point
-├── requirements.txt     # Project dependencies
-└── README.md           # Documentation
+│   └── warehouse.db  
+├── app.py            
+├── main.py           
+├── requirements.txt  
+└── README.md
 
 ## How to Run
 
