@@ -53,13 +53,19 @@ data-pipeline-automation/
 
 ├── database/
 
-│   └── warehouse.db  
+│   └── warehouse.db 
+
+├── .streamlit/
+
+│   └── config.toml 
 
 ├── app.py            
 
 ├── main.py           
 
 ├── requirements.txt  
+
+├── seed_db.py
 
 └── README.md
 
