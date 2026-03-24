@@ -38,6 +38,7 @@ DevOps/Automation: GitHub Actions (YAML)
 ## Project Structure
 
 data-pipeline-automation/
+
 ├── .github/workflows/
 
 │   └── daily_etl.yml
@@ -53,9 +54,13 @@ data-pipeline-automation/
 ├── database/
 
 │   └── warehouse.db  
+
 ├── app.py            
+
 ├── main.py           
+
 ├── requirements.txt  
+
 └── README.md
 
 ## How to Run
