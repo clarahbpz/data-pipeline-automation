@@ -80,5 +80,5 @@ To visualize the data in your browser:
 
 streamlit run app.py
 
-#### Developed by Clara Hilbert Polizel 
+### Developed by Clara Hilbert Polizel 
 Computer Engineering Student at Universidade Federal de Goiás (UFG)
