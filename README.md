@@ -83,5 +83,4 @@ data-pipeline-automation/
 
 
 ## Developed by 
-Clara Hilbert Polizel 
-Computer Engineering Student at Universidade Federal de Goiás (UFG)
+Clara Hilbert Polizel - Computer Engineering Student at Universidade Federal de Goiás (UFG)
