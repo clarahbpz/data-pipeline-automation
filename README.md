@@ -39,12 +39,19 @@ DevOps/Automation: GitHub Actions (YAML)
 
 data-pipeline-automation/
 ├── .github/workflows/
+
 │   └── daily_etl.yml
+
 ├── src/
+
 │   ├── extract.py 
+
 │   ├── transform.py 
+
 │   └── load.py
+
 ├── database/
+
 │   └── warehouse.db  
 ├── app.py            
 ├── main.py           
