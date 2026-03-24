@@ -13,80 +13,65 @@ To demonstrate technical proficiency in ETL pipeline automation, SQL data modeli
 
 The system follows a modular architecture divided into four main layers:
 
-Ingestion (Extract): Python scripts consuming REST APIs from AwesomeAPI (USD/EUR) and CoinGecko (Bitcoin).
+**Ingestion (Extract):** Python scripts consuming REST APIs from AwesomeAPI (USD/EUR) and CoinGecko (Bitcoin).
 
-Processing (Transform): Data cleaning and normalization using Pandas, including type conversion and timestamp standardization.
+**Processing (Transform):** Data cleaning and normalization using Pandas, including type conversion and timestamp standardization.
 
-Storage (Load): Persistence in a SQLite relational database using SQLAlchemy, employing an Append strategy to build historical series (Data Warehouse).
+**Storage (Load):** Persistence in a SQLite relational database using SQLAlchemy, employing an Append strategy to build historical series (Data Warehouse).
 
-Orchestration (CI/CD): GitHub Actions serves as the orchestrator, running the pipeline daily via Cron Jobs to ensure the warehouse is updated serverless.
+**Orchestration (CI/CD):** GitHub Actions serves as the orchestrator, running the pipeline daily via Cron Jobs to ensure the warehouse is updated serverless.
 
-Visualization (BI): An interactive dashboard built with Streamlit and Plotly for trend analysis and KPI monitoring.
+**Visualization (BI):** An interactive dashboard built with Streamlit and Plotly for trend analysis and KPI monitoring.
 
 ## Tech Stack
 
-Language: Python 3.10+
+**Language:** Python 3.10+
 
-Data Manipulation: Pandas
+**Data Manipulation:** Pandas
 
-Database & ORM: SQLite, SQLAlchemy
+**Database & ORM:** SQLite, SQLAlchemy
 
-Visualization: Streamlit, Plotly
+**Visualization:** Streamlit, Plotly
 
-DevOps/Automation: GitHub Actions (YAML)
+**DevOps/Automation:** GitHub Actions (YAML)
 
 ## Project Structure
-
+```text
 data-pipeline-automation/
-
 ├── .github/workflows/
-
 │   └── daily_etl.yml
-
 ├── src/
-
 │   ├── extract.py 
-
 │   ├── transform.py 
-
 │   └── load.py
-
 ├── database/
-
 │   └── warehouse.db 
-
 ├── .streamlit/
-
 │   └── config.toml 
-
 ├── app.py            
-
 ├── main.py           
-
 ├── requirements.txt  
-
 ├── seed_db.py
-
 └── README.md
+```
 
 ## How to Run
 
 #### Prerequisites
-- Ensure you have Python installed. Clone the repository and install the dependencies:
-
+Ensure you have Python installed. Clone the repository and install the dependencies:
+    ```bash
     pip install -r requirements.txt
+    ```
 
 #### Run the Pipeline
-- To manually trigger the extraction and save data to the SQL database:
-
+To manually trigger the extraction and save data to the SQL database:
+    ```bash
     python main.py
-
+    ```
 #### Launch the Dashboard
-- To visualize the data in your browser:
-
+To visualize the data in your browser:
+    ```bash
     streamlit run app.py
+    ```
 
-
-
-## Developed by 
-Clara Hilbert Polizel - Computer Engineering Student at Universidade Federal de Goiás (UFG)
+**Author:** Clara Hilbert Polizel - Computer Engineering Student at Universidade Federal de Goiás (UFG)
